@@ -1,0 +1,1 @@
+/usr/bin/c++  -g    -pthread CMakeFiles/JonyServer.dir/main.cpp.o CMakeFiles/JonyServer.dir/CGImysql/sql_connection_pool.cpp.o CMakeFiles/JonyServer.dir/http/http_conn.cpp.o CMakeFiles/JonyServer.dir/log/log.cpp.o  -o JonyServer  -lmysqlclient 

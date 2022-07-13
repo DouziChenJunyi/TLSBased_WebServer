@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JonyServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chenjunyi/Documents/GitHub/JonyServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chenjunyi/Documents/GitHub/JonyServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chenjunyi/Documents/GitHub/JonyServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JonyServer">
+				<Option output="/Users/chenjunyi/Documents/GitHub/JonyServer/JonyServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenjunyi/Documents/GitHub/JonyServer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/bin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 JonyServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JonyServer/fast">
+				<Option output="/Users/chenjunyi/Documents/GitHub/JonyServer/JonyServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenjunyi/Documents/GitHub/JonyServer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="."/>
+					<Add directory="/usr/local/Cellar/gcc/11.2.0/bin"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 JonyServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chenjunyi/Documents/GitHub/JonyServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/CGImysql/sql_connection_pool.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/CGImysql/sql_connection_pool.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/CentralCache.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/CentralCache.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/Common.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/ConcurrentAlloc.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/PageCache.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/PageCache.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/ThreadCache.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/ConcurrentMemoryPool/ThreadCache.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/http/http_conn.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/http/http_conn.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/lock/locker.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/log/block_queue.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/log/log.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/log/log.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/main.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/mainBackup.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/threadpool/threadpool.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/timer/lst_timer.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/timer/time_wheel_timer.cpp">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/timer/time_wheel_timer.h">
+			<Option target="JonyServer"/>
+		</Unit>
+		<Unit filename="/Users/chenjunyi/Documents/GitHub/JonyServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

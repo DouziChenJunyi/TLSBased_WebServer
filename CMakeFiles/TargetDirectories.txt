@@ -1,0 +1,3 @@
+/Users/chenjunyi/Documents/GitHub/JonyServer/CMakeFiles/rebuild_cache.dir
+/Users/chenjunyi/Documents/GitHub/JonyServer/CMakeFiles/edit_cache.dir
+/Users/chenjunyi/Documents/GitHub/JonyServer/CMakeFiles/JonyServer.dir
