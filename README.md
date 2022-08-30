@@ -2,9 +2,14 @@
 项目介绍：本项目自研项目，旨在实践网络编程及相关开发技术的学习。 个人职责：后端开发 工作内容：【高并发】基于线程池、非阻塞 socket、IO 多路复用技术（ET 模式的epoll）、及 Reactor 事件处理模式实现高并发。【内存池】使用TLS（线程局部存储）内存池，统一申请和释放服务器通信连接所需的内存，减少系统内存碎片。TLS内存池设计为3层结构：线程缓冲存储+中心缓冲存储+页缓冲存储。【数据库连接池】采用 RAII 机制的数据库连接池，池化技术提高登录验证效率，RAII 机制避免内存泄漏。【时间轮】使用基于时间轮的定时器关闭超时请求，解决超时连接占用系统资源问题。 
 
 > 参考我的博客：https://www.cnblogs.com/MasterBean/p/16459077.html
+ 
 > 参考我的博客：https://www.cnblogs.com/MasterBean/p/16329454.html
+ 
 > 参考我的博客：https://www.cnblogs.com/MasterBean/p/16461737.html
+
 > 参考我的博客：https://www.cnblogs.com/MasterBean/p/16583149.html
+
+
 
 ### 1 什么是 Web Server
 Web Server 是 通过 HTTP 协议 与客户端进行通信，来接收、存储、处理来自客户端的 HTTP 请求，并对请求进行响应，返回给客户端请求的内容，或返回error。
